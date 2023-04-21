@@ -1,10 +1,10 @@
+require("dotenv").config();
 const path = require("path");
 const express = require("express");
 const helmet = require("helmet");
 const cardsRouter = require("./routes/cards/cards.router");
 const cors = require("cors");
 const mongodbConnect = require("./services/mongodb");
-require("dotenv").config();
 
 const PORT = 8000;
 const corsOptions = {
