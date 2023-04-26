@@ -18,3 +18,5 @@ COPY server/ server/
 USER node
 
 CMD ["npm", "run", "server-start"]
+
+EXPOSE 8000
