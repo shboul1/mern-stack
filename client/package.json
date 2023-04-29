@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 8000",
-    "build": "vite build",
+    "build": "vite build --outDir ../server/public",
     "preview": "vite preview"
   },
   "dependencies": {
