@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-const BASE_URL = "https://localhost:8000/cards";
+const BASE_URL = "https://54.197.134.142:8000/cards";
 
 function App() {
   const [cards, setCards] = useState([]);
