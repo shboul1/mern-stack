@@ -19,4 +19,4 @@ USER node
 
 CMD ["npm", "run", "server-start"]
 
-EXPOSE 8000
+EXPOSE 443

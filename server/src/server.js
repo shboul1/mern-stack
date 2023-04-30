@@ -8,7 +8,7 @@ const cardsRouter = require("./routes/cards/cards.router");
 const cors = require("cors");
 const mongodbConnect = require("./services/mongodb");
 
-const PORT = 8000;
+const PORT = 443;
 const corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200,
